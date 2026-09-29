@@ -1,0 +1,167 @@
+{
+  "single_task": [
+    {
+      "task": "turn_on_led",
+      "task_cn": "打开 LED",
+      "trials": 9,
+      "successes": 2,
+      "success_rate": 0.2222222222222222
+    },
+    {
+      "task": "move_slider_left",
+      "task_cn": "左移滑门",
+      "trials": 9,
+      "successes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "task": "open_drawer",
+      "task_cn": "打开抽屉",
+      "trials": 9,
+      "successes": 0,
+      "success_rate": 0.0
+    }
+  ],
+  "long_horizon_prefix": [
+    {
+      "prefix_length": 1,
+      "sequences": 100,
+      "successful_prefixes": 1,
+      "success_rate": 0.01
+    },
+    {
+      "prefix_length": 2,
+      "sequences": 100,
+      "successful_prefixes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "prefix_length": 3,
+      "sequences": 100,
+      "successful_prefixes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "prefix_length": 4,
+      "sequences": 100,
+      "successful_prefixes": 0,
+      "success_rate": 0.0
+    },
+    {
+      "prefix_length": 5,
+      "sequences": 100,
+      "successful_prefixes": 0,
+      "success_rate": 0.0
+    }
+  ],
+  "long_horizon_sequence_successes": 0,
+  "long_horizon_average_completed_steps": 0.01,
+  "retry": {
+    "sequences": 10,
+    "retry_attempts": 10,
+    "recovered": 0,
+    "recovery_rate": 0.0
+  },
+  "continue_after_failure": {
+    "sequences": 10,
+    "total_step_successes": 0,
+    "per_position": [
+      {
+        "position": 1,
+        "successes": 0,
+        "trials": 10
+      },
+      {
+        "position": 2,
+        "successes": 0,
+        "trials": 10
+      },
+      {
+        "position": 3,
+        "successes": 0,
+        "trials": 10
+      },
+      {
+        "position": 4,
+        "successes": 0,
+        "trials": 10
+      },
+      {
+        "position": 5,
+        "successes": 0,
+        "trials": 10
+      }
+    ]
+  },
+  "position_distance_mm": [
+    {
+      "task_cn": "打开 LED",
+      "teacher_forced_mm": 6.1,
+      "free_rollout_mm": 133.6
+    },
+    {
+      "task_cn": "左移滑门",
+      "teacher_forced_mm": 7.3,
+      "free_rollout_mm": 72.9
+    },
+    {
+      "task_cn": "打开抽屉",
+      "teacher_forced_mm": 6.9,
+      "free_rollout_mm": 194.2
+    }
+  ],
+  "action_ablation": [
+    {
+      "task_cn": "打开 LED",
+      "真实示范": 1,
+      "仅替换位置": 0,
+      "仅替换姿态": 1,
+      "仅替换夹爪": 0
+    },
+    {
+      "task_cn": "左移滑门",
+      "真实示范": 1,
+      "仅替换位置": 0,
+      "仅替换姿态": 1,
+      "仅替换夹爪": 1
+    },
+    {
+      "task_cn": "打开抽屉",
+      "真实示范": 1,
+      "仅替换位置": 0,
+      "仅替换姿态": 1,
+      "仅替换夹爪": 1
+    }
+  ],
+  "failure_cases": [
+    {
+      "case": "LED 示范初始状态",
+      "failure_step": "单任务",
+      "label": "ACT",
+      "observable_evidence": "仅替换位置失败；关键步夹爪符号与示范相反",
+      "confidence": "较高"
+    },
+    {
+      "case": "左移滑门示范初始状态",
+      "failure_step": "单任务",
+      "label": "ACT",
+      "observable_evidence": "仅替换位置失败；仅替换姿态和夹爪均成功",
+      "confidence": "较高"
+    },
+    {
+      "case": "打开抽屉示范初始状态",
+      "failure_step": "单任务",
+      "label": "ACT",
+      "observable_evidence": "仅替换位置失败；仅替换姿态和夹爪均成功",
+      "confidence": "较高"
+    },
+    {
+      "case": "正式序列 84",
+      "failure_step": "第 2 步",
+      "label": "UNC",
+      "observable_evidence": "第 1 步打开 LED 成功，第 2 步推入抽屉失败；未保存足够动作画面确定直接原因",
+      "confidence": "不足"
+    }
+  ],
+  "scope_note": "CALVIN debug 数据和官方 MCIL 权重上的小规模 CPU 实验，不是官方排行榜成绩。"
+}

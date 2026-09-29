@@ -1,0 +1,4 @@
+﻿task,task_cn,trials,successes,success_rate
+turn_on_led,打开 LED,9,2,0.2222222222222222
+move_slider_left,左移滑门,9,0,0.0
+open_drawer,打开抽屉,9,0,0.0

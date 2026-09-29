@@ -1,0 +1,392 @@
+[
+  {
+    "sequence_index": 0,
+    "subtasks": [
+      "turn_on_led",
+      "push_pink_block_left",
+      "lift_pink_block_table",
+      "stack_block",
+      "move_slider_left"
+    ],
+    "completed_steps": 0,
+    "sequence_success": false,
+    "step_results": [
+      {
+        "step": 1,
+        "subtask": "turn_on_led",
+        "success": false
+      },
+      {
+        "step": 2,
+        "subtask": "push_pink_block_left",
+        "success": false
+      },
+      {
+        "step": 3,
+        "subtask": "lift_pink_block_table",
+        "success": false
+      },
+      {
+        "step": 4,
+        "subtask": "stack_block",
+        "success": false
+      },
+      {
+        "step": 5,
+        "subtask": "move_slider_left",
+        "success": false
+      }
+    ]
+  },
+  {
+    "sequence_index": 1,
+    "subtasks": [
+      "lift_blue_block_slider",
+      "place_in_slider",
+      "turn_on_led",
+      "open_drawer",
+      "rotate_pink_block_right"
+    ],
+    "completed_steps": 0,
+    "sequence_success": false,
+    "step_results": [
+      {
+        "step": 1,
+        "subtask": "lift_blue_block_slider",
+        "success": false
+      },
+      {
+        "step": 2,
+        "subtask": "place_in_slider",
+        "success": false
+      },
+      {
+        "step": 3,
+        "subtask": "turn_on_led",
+        "success": false
+      },
+      {
+        "step": 4,
+        "subtask": "open_drawer",
+        "success": false
+      },
+      {
+        "step": 5,
+        "subtask": "rotate_pink_block_right",
+        "success": false
+      }
+    ]
+  },
+  {
+    "sequence_index": 2,
+    "subtasks": [
+      "move_slider_left",
+      "open_drawer",
+      "turn_on_lightbulb",
+      "rotate_red_block_right",
+      "lift_pink_block_table"
+    ],
+    "completed_steps": 0,
+    "sequence_success": false,
+    "step_results": [
+      {
+        "step": 1,
+        "subtask": "move_slider_left",
+        "success": false
+      },
+      {
+        "step": 2,
+        "subtask": "open_drawer",
+        "success": false
+      },
+      {
+        "step": 3,
+        "subtask": "turn_on_lightbulb",
+        "success": false
+      },
+      {
+        "step": 4,
+        "subtask": "rotate_red_block_right",
+        "success": false
+      },
+      {
+        "step": 5,
+        "subtask": "lift_pink_block_table",
+        "success": false
+      }
+    ]
+  },
+  {
+    "sequence_index": 3,
+    "subtasks": [
+      "lift_blue_block_table",
+      "place_in_slider",
+      "turn_on_lightbulb",
+      "push_pink_block_right",
+      "open_drawer"
+    ],
+    "completed_steps": 0,
+    "sequence_success": false,
+    "step_results": [
+      {
+        "step": 1,
+        "subtask": "lift_blue_block_table",
+        "success": false
+      },
+      {
+        "step": 2,
+        "subtask": "place_in_slider",
+        "success": false
+      },
+      {
+        "step": 3,
+        "subtask": "turn_on_lightbulb",
+        "success": false
+      },
+      {
+        "step": 4,
+        "subtask": "push_pink_block_right",
+        "success": false
+      },
+      {
+        "step": 5,
+        "subtask": "open_drawer",
+        "success": false
+      }
+    ]
+  },
+  {
+    "sequence_index": 4,
+    "subtasks": [
+      "push_blue_block_right",
+      "open_drawer",
+      "turn_on_led",
+      "lift_blue_block_table",
+      "place_in_drawer"
+    ],
+    "completed_steps": 0,
+    "sequence_success": false,
+    "step_results": [
+      {
+        "step": 1,
+        "subtask": "push_blue_block_right",
+        "success": false
+      },
+      {
+        "step": 2,
+        "subtask": "open_drawer",
+        "success": false
+      },
+      {
+        "step": 3,
+        "subtask": "turn_on_led",
+        "success": false
+      },
+      {
+        "step": 4,
+        "subtask": "lift_blue_block_table",
+        "success": false
+      },
+      {
+        "step": 5,
+        "subtask": "place_in_drawer",
+        "success": false
+      }
+    ]
+  },
+  {
+    "sequence_index": 5,
+    "subtasks": [
+      "rotate_blue_block_right",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "turn_on_lightbulb",
+      "open_drawer"
+    ],
+    "completed_steps": 0,
+    "sequence_success": false,
+    "step_results": [
+      {
+        "step": 1,
+        "subtask": "rotate_blue_block_right",
+        "success": false
+      },
+      {
+        "step": 2,
+        "subtask": "lift_blue_block_table",
+        "success": false
+      },
+      {
+        "step": 3,
+        "subtask": "place_in_slider",
+        "success": false
+      },
+      {
+        "step": 4,
+        "subtask": "turn_on_lightbulb",
+        "success": false
+      },
+      {
+        "step": 5,
+        "subtask": "open_drawer",
+        "success": false
+      }
+    ]
+  },
+  {
+    "sequence_index": 6,
+    "subtasks": [
+      "push_blue_block_left",
+      "lift_blue_block_table",
+      "place_in_slider",
+      "open_drawer",
+      "move_slider_left"
+    ],
+    "completed_steps": 0,
+    "sequence_success": false,
+    "step_results": [
+      {
+        "step": 1,
+        "subtask": "push_blue_block_left",
+        "success": false
+      },
+      {
+        "step": 2,
+        "subtask": "lift_blue_block_table",
+        "success": false
+      },
+      {
+        "step": 3,
+        "subtask": "place_in_slider",
+        "success": false
+      },
+      {
+        "step": 4,
+        "subtask": "open_drawer",
+        "success": false
+      },
+      {
+        "step": 5,
+        "subtask": "move_slider_left",
+        "success": false
+      }
+    ]
+  },
+  {
+    "sequence_index": 7,
+    "subtasks": [
+      "push_red_block_left",
+      "open_drawer",
+      "lift_pink_block_slider",
+      "place_in_drawer",
+      "lift_red_block_table"
+    ],
+    "completed_steps": 0,
+    "sequence_success": false,
+    "step_results": [
+      {
+        "step": 1,
+        "subtask": "push_red_block_left",
+        "success": false
+      },
+      {
+        "step": 2,
+        "subtask": "open_drawer",
+        "success": false
+      },
+      {
+        "step": 3,
+        "subtask": "lift_pink_block_slider",
+        "success": false
+      },
+      {
+        "step": 4,
+        "subtask": "place_in_drawer",
+        "success": false
+      },
+      {
+        "step": 5,
+        "subtask": "lift_red_block_table",
+        "success": false
+      }
+    ]
+  },
+  {
+    "sequence_index": 8,
+    "subtasks": [
+      "open_drawer",
+      "turn_on_lightbulb",
+      "move_slider_left",
+      "rotate_red_block_left",
+      "lift_red_block_table"
+    ],
+    "completed_steps": 0,
+    "sequence_success": false,
+    "step_results": [
+      {
+        "step": 1,
+        "subtask": "open_drawer",
+        "success": false
+      },
+      {
+        "step": 2,
+        "subtask": "turn_on_lightbulb",
+        "success": false
+      },
+      {
+        "step": 3,
+        "subtask": "move_slider_left",
+        "success": false
+      },
+      {
+        "step": 4,
+        "subtask": "rotate_red_block_left",
+        "success": false
+      },
+      {
+        "step": 5,
+        "subtask": "lift_red_block_table",
+        "success": false
+      }
+    ]
+  },
+  {
+    "sequence_index": 9,
+    "subtasks": [
+      "open_drawer",
+      "turn_on_led",
+      "rotate_red_block_left",
+      "lift_blue_block_slider",
+      "place_in_drawer"
+    ],
+    "completed_steps": 0,
+    "sequence_success": false,
+    "step_results": [
+      {
+        "step": 1,
+        "subtask": "open_drawer",
+        "success": false
+      },
+      {
+        "step": 2,
+        "subtask": "turn_on_led",
+        "success": false
+      },
+      {
+        "step": 3,
+        "subtask": "rotate_red_block_left",
+        "success": false
+      },
+      {
+        "step": 4,
+        "subtask": "lift_blue_block_slider",
+        "success": false
+      },
+      {
+        "step": 5,
+        "subtask": "place_in_drawer",
+        "success": false
+      }
+    ]
+  }
+]

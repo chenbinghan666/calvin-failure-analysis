@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+*.ckpt
+*.pth
+*.pt
+calvin_dataset/
+checkpoints/
+outputs/
+traces/
+
