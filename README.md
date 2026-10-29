@@ -59,13 +59,16 @@
 .
 ├── README.md
 ├── docs/
-│   └── report.pdf                  # 中文实验报告
+│   ├── report.pdf                  # 中文实验报告
+│   └── internship-summary.md       # 科研实习总结
 ├── figures/                        # 汇总图和案例截图
 ├── results/                        # JSON 与 CSV 实验结果
 └── src/                            # 评测与诊断代码
 ```
 
 完整中文报告：[docs/report.pdf](docs/report.pdf)
+
+科研实习中的研究问题选择、本人完成的工作、排错过程和研究局限见：[docs/internship-summary.md](docs/internship-summary.md)
 
 ## 复现说明
 
