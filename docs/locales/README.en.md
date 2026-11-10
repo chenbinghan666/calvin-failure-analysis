@@ -18,6 +18,14 @@ The traditional task-level success rate only retains the final success or failur
 - The model succeeds only in a few initial states;
 - The model cannot recover on its own after failure.
 
+## Demo
+
+Replays the 100 published five-step sequences and counts completions at each step.
+
+[![Demo](../../docs/images/project-demo.gif)](../../docs/images/project-demo.mp4)
+
+[Download MP4](../../docs/images/project-demo.mp4?raw=true)
+
 ## Experimental process
 
 1. Play back the real demonstration trajectory to verify the environment, action format and success determination.

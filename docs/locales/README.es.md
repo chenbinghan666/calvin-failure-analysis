@@ -18,6 +18,14 @@ La tasa de éxito tradicional a nivel de tarea solo conserva el éxito o fracaso
 - El modelo sólo tiene éxito en unos pocos estados iniciales;
 - El modelo no puede recuperarse por sí solo después de un fallo.
 
+## Demostración
+
+Revisa las 100 secuencias publicadas de cinco pasos y cuenta las que completaron cada paso.
+
+[![Demostración](../../docs/images/project-demo.gif)](../../docs/images/project-demo.mp4)
+
+[Descargar MP4](../../docs/images/project-demo.mp4?raw=true)
+
 ## Proceso experimental
 
 1. Reproduzca la trayectoria de demostración real para verificar el entorno, el formato de acción y la determinación del éxito.

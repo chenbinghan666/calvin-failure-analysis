@@ -18,6 +18,14 @@ Python · CALVIN · MCIL · [查看实验报告](https://github.com/chenbinghan6
 - 模型只在少数初始状态下成功；
 - 模型失败后无法自行恢复。
 
+## 实操演示
+
+读取仓库公开的 100 条五步序列，统计每一步的完成数。这段录屏是结果回放。
+
+[![实操演示](docs/images/project-demo.gif)](docs/images/project-demo.mp4)
+
+[下载 MP4](docs/images/project-demo.mp4?raw=true)
+
 ## 实验流程
 
 1. 回放真实示范轨迹，验证环境、动作格式和成功判定。

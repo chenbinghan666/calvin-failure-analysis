@@ -18,6 +18,14 @@ A taxa de sucesso tradicional em nível de tarefa retém apenas o sucesso ou fra
 - O modelo tem sucesso apenas em alguns estados iniciais;
 - O modelo não pode se recuperar sozinho após uma falha.
 
+## Demonstração
+
+Reanalisa as 100 sequências publicadas de cinco etapas e conta as conclusões em cada etapa.
+
+[![Demonstração](../../docs/images/project-demo.gif)](../../docs/images/project-demo.mp4)
+
+[Baixar MP4](../../docs/images/project-demo.mp4?raw=true)
+
 ## Processo experimental
 
 1. Reproduza a trajetória real da demonstração para verificar o ambiente, o formato da ação e a determinação do sucesso.

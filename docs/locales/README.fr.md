@@ -18,6 +18,14 @@ Le taux de réussite traditionnel au niveau des tâches ne retient que le succè
 - Le modèle ne réussit que dans quelques états initiaux ;
 - Le modèle ne peut pas se rétablir tout seul après un échec.
 
+## Démonstration
+
+Relit les 100 séquences de cinq étapes publiées et compte les réussites à chaque étape.
+
+[![Démonstration](../../docs/images/project-demo.gif)](../../docs/images/project-demo.mp4)
+
+[Télécharger le MP4](../../docs/images/project-demo.mp4?raw=true)
+
 ## Processus expérimental
 
 1. Rejouez la trajectoire réelle de la démonstration pour vérifier l’environnement, le format de l’action et la détermination du succès.

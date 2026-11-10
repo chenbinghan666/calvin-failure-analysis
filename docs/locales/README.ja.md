@@ -18,6 +18,14 @@ Python · CALVIN · MCIL · [実験レポートを見る](https://github.com/che
 - モデルはいくつかの初期状態でのみ成功します。
 - モデルは障害後に自力で回復することはできません。
 
+## 操作デモ
+
+公開済みの100件の5ステップ系列を読み込み、各ステップの完了数を数えます。
+
+[![操作デモ](../../docs/images/project-demo.gif)](../../docs/images/project-demo.mp4)
+
+[MP4 をダウンロード](../../docs/images/project-demo.mp4?raw=true)
+
 ## 実験プロセス
 
 1. 実際のデモンストレーション軌跡を再生して、環境、アクション形式、成功判定を検証します。

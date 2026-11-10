@@ -18,6 +18,14 @@ Die herkömmliche Erfolgsquote auf Aufgabenebene berücksichtigt nur den endgül
 - Das Modell ist nur in wenigen Ausgangszuständen erfolgreich;
 - Das Modell kann sich nach einem Ausfall nicht selbstständig erholen.
 
+## Demo
+
+Wertet 100 veröffentlichte Sequenzen mit je fünf Schritten aus und zählt die Abschlüsse pro Schritt.
+
+[![Demo](../../docs/images/project-demo.gif)](../../docs/images/project-demo.mp4)
+
+[MP4 herunterladen](../../docs/images/project-demo.mp4?raw=true)
+
 ## Experimenteller Prozess
 
 1. Spielen Sie den realen Demonstrationsverlauf ab, um die Umgebung, das Aktionsformat und die Erfolgsbestimmung zu überprüfen.
