@@ -1,5 +1,11 @@
 # 面向长程机器人任务的失败模式分析与过程级评测
 
+**简体中文** · [English](https://github.com/chenbinghan666/calvin-failure-analysis/blob/main/docs/locales/README.en.md) · [日本語](https://github.com/chenbinghan666/calvin-failure-analysis/blob/main/docs/locales/README.ja.md) · [Deutsch](https://github.com/chenbinghan666/calvin-failure-analysis/blob/main/docs/locales/README.de.md) · [Français](https://github.com/chenbinghan666/calvin-failure-analysis/blob/main/docs/locales/README.fr.md) · [Español](https://github.com/chenbinghan666/calvin-failure-analysis/blob/main/docs/locales/README.es.md) · [Português](https://github.com/chenbinghan666/calvin-failure-analysis/blob/main/docs/locales/README.pt.md)
+
+当机器人五步任务全部失败时，怎样定位它从哪一步开始出错？用 CALVIN 仿真和 MCIL 公开模型逐步检查动作偏差，并记录重试能否恢复。仓库附实验图表、数据和中文报告。
+
+Python · CALVIN · MCIL · [查看实验报告](https://github.com/chenbinghan666/calvin-failure-analysis/blob/main/docs/report.pdf)
+
 这是一个基于 [CALVIN](https://github.com/mees/calvin) 仿真环境和官方 MCIL 预训练模型完成的小规模研究项目。
 
 项目关注的问题是：**当一条长程机器人任务的 Success Rate 为 0 时，机器人究竟失败在什么位置，为什么失败，以及失败后能否恢复？**
